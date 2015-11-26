@@ -1,0 +1,9 @@
+default:
+  context:
+    parameters:
+       browser: firefox
+       javascript_session: selenium2
+  extensions:
+    Behat\MinkExtension\Extension:
+      goutte: ~
+      selenium2: ~

@@ -1,0 +1,19 @@
+{
+    "require": {
+        "php": ">=5.5.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+	"phpunit/phpunit": "4.*",
+        "mockery/mockery": "0.8.x",
+	"behat/behat": "2.5.*@stable",
+        "behat/mink": "1.5@stable",
+        "behat/mink-extension": "*",
+	"behat/mink-goutte-driver": "*",
+	"behat/mink-selenium2-driver": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
